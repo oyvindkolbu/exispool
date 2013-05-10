@@ -1,0 +1,52 @@
+1M6eys-0004dK-Gl-H
+exim 7411 7411
+<ffc-dev-bounces@fenics.org>
+1242799726 0
+-ident exim
+-received_protocol local-bsmtp
+-body_linecount 82
+-max_received_linelength 160
+-allow_unqualified_recipient
+-allow_unqualified_sender
+XX
+1
+password6@lian-f.com
+
+195P Received: from exim by mail-out2.uio.no with local-bsmtp (Exim 4.69)
+	(envelope-from <ffc-dev-bounces@fenics.org>)
+	id 1M6eys-0004dK-Gl
+	for password6@lian-f.com; Wed, 20 May 2009 08:08:46 +0200
+219P Received: from mail-mx2.uio.no ([129.240.10.30])
+	by mail-out2.uio.no with esmtp (Exim 4.69)
+	(envelope-from <ffc-dev-bounces@fenics.org>)
+	id 1M6eys-0004dH-Fk
+	for password6@lian-f.com; Wed, 20 May 2009 08:08:46 +0200
+225P Received: from communalis.simula.no ([129.240.228.29])
+	by mail-mx2.uio.no with esmtp  (Exim 4.69)
+	(envelope-from <ffc-dev-bounces@fenics.org>)
+	id 1M6eys-00028u-4y
+	for password6@lian-f.com; Wed, 20 May 2009 08:08:46 +0200
+189P Received: from localhost (localhost.localdomain [127.0.0.1])
+	by communalis.simula.no (Postfix) with ESMTP id 15B371DB26
+	for <password6@lian-f.com>; Wed, 20 May 2009 08:08:46 +0200 (CEST)
+221P Received: from communalis.simula.no ([127.0.0.1])
+	by localhost (communalis.simula.no [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id MxyXbRJPcHkM for <password6@lian-f.com>;
+	Wed, 20 May 2009 08:08:38 +0200 (CEST)
+200P Received: from communalis.simula.no (localhost.localdomain [127.0.0.1])
+	by communalis.simula.no (Postfix) with ESMTP id 812301DA53
+	for <password6@lian-f.com>; Wed, 20 May 2009 08:08:38 +0200 (CEST)
+044  Subject: The results of your email commands
+033F From: ffc-dev-bounces@fenics.org
+025T To: password6@lian-f.com
+018  MIME-Version: 1.0
+070  Content-Type: multipart/mixed; boundary="===============0767979941=="
+064I Message-ID: <mailman.104086.1242799718.3216.ffc-dev@fenics.org>
+038  Date: Wed, 20 May 2009 08:08:38 +0200
+017  Precedence: bulk
+032  X-BeenThere: ffc-dev@fenics.org
+025  X-Mailman-Version: 2.1.9
+030  List-Id: <ffc-dev.fenics.org>
+026  X-List-Administrivia: yes
+035S Sender: ffc-dev-bounces@fenics.org
+038  Errors-To: ffc-dev-bounces@fenics.org

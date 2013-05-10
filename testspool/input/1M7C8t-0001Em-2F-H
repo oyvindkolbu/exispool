@@ -1,0 +1,38 @@
+1M7C8t-0001Em-2F-H
+exim 7411 7411
+<skyvenn@ulrik.uio.no>
+1242927199 0
+-helo_name mail-mx1.uio.no
+-host_address 129.240.10.29.43984
+-host_name mail-mx1.uio.no
+-interface_address 129.240.10.38.25
+-received_protocol esmtp
+-body_linecount 3
+-max_received_linelength 160
+-allow_unqualified_recipient
+-allow_unqualified_sender
+XX
+1
+skybert@kommune.no
+
+225P Received: from mail-mx1.uio.no ([129.240.10.29])
+	by mail-out2.uio.no with esmtp (Exim 4.69)
+	(envelope-from <skyvenn@ulrik.uio.no>)
+	id 1M7C8t-0001Em-2F
+	for skybert@kommune.no; Thu, 21 May 2009 19:33:19 +0200
+287P Received: from w3prod-wm01.uio.no ([129.240.4.214] helo=webmail.uio.no)
+	by mail-mx1.uio.no with esmtpsa (TLSv1:AES256-SHA:256)
+	user skyvenn (Exim 4.69)
+	(envelope-from <skyvenn@ulrik.uio.no>)
+	id 1M7C8s-0008Jv-Dm
+	for skybert@kommune.no; Thu, 21 May 2009 19:33:19 +0200
+165P Received: from 62.119.114.242
+        (SquirrelMail authenticated user skyvenn)
+        by webmail.uio.no with HTTP;
+        Thu, 21 May 2009 19:33:18 +0200 (CEST)
+071I Message-ID: <23fa5c823dc04329e36b142274e63bf1.squirrel@webmail.uio.no>
+045  Date: Thu, 21 May 2009 19:33:18 +0200 (CEST)
+026  Subject: Re: sky
+042F From: sky.venn@medisin.uio.no
+055T To: "Mr. Skybert" <skybert@kommune.no>
+032  User-Agent: SquirrelMail/1.4.17

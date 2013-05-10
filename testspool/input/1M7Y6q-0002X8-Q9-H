@@ -1,0 +1,43 @@
+1M7Y6q-0002X8-Q9-H
+exim 7411 7411
+<pondus@ulrik.uio.no>
+1243011640 0
+-helo_name mail-mx4.uio.no
+-host_address 129.240.10.45.45492
+-host_name mail-mx4.uio.no
+-interface_address 129.240.10.38.25
+-received_protocol esmtp
+-body_linecount 5
+-max_received_linelength 157
+-allow_unqualified_recipient
+-allow_unqualified_sender
+XX
+1
+anji@buziaczek.pl
+
+212P Received: from mail-mx4.uio.no ([129.240.10.45])
+	by mail-out2.uio.no with esmtp (Exim 4.69)
+	(envelope-from <wakke@ulrik.uio.no>)
+	id 1M7Y6q-0002X8-Q9
+	for anji@buziaczek.pl; Fri, 22 May 2009 19:00:41 +0200
+271P Received: from w3prod-wm01.uio.no ([129.240.4.214] helo=webmail.uio.no)
+	by mail-mx4.uio.no with esmtpsa (TLSv1:AES256-SHA:256)
+	user wakke (Exim 4.69)
+	(envelope-from <wakke@ulrik.uio.no>)
+	id 1M7Y6n-0008LZ-S1
+	for anji@buziaczek.pl; Fri, 22 May 2009 19:00:40 +0200
+161P Received: from 10.10.10.137
+        (SquirrelMail authenticated user wakke)
+        by webmail.uio.no with HTTP;
+        Fri, 22 May 2009 19:00:37 +0200 (CEST)
+071I Message-ID: <f9ca318df637dedf37200eccebb40.squirrel@webmail.uio.no>
+045  Date: Fri, 22 May 2009 19:00:37 +0200 (CEST)
+027  Subject: anji i czek
+034F From: pondus@student.matnat.uio.no
+059T To: anji <anji@buziaczek.pl>
+032  User-Agent: SquirrelMail/1.4.17
+018  MIME-Version: 1.0
+034  X-UiO-MailScanner: No virus found
+109  X-UiO-Ratelimit-Test: rcpts/h 1 msgs/h 1 sum rcpts/h 1 sum msgs/h 1 total rcpts 23 max rcpts/h 3 ratelimit 0
+056  X-UiO-Scanned: AD9ECABB3B915550DA595014130C0FCADD535E56
+158  X-UiO-SPAM-Test: remote_host: 129.240.4.214 spam_score: 0 maxlevel 80 minaction 2 bait 0 mail/h: 2 total 1313101 max/h 678 blacklist 0 greylist 0 ratelimit 0

@@ -1,0 +1,32 @@
+1M7Op4-0001mD-5Q-H
+exim 7411 7411
+<>
+1242975942 0
+-helo_name mail-mx6.uio.no
+-host_address 129.240.10.47.54517
+-host_name mail-mx6.uio.no
+-interface_address 129.240.10.38.25
+-received_protocol esmtp
+-body_linecount 92
+-max_received_linelength 302
+-allow_unqualified_recipient
+-allow_unqualified_sender
+-frozen 1242975942
+XX
+1
+taylor367tristram@theredsea.com
+
+184P Received: from mail-mx6.uio.no ([129.240.10.47])
+	by mail-out2.uio.no with esmtp (Exim 4.69)
+	id 1M7Op4-0001mD-5Q
+	for taylor367tristram@theredsea.com; Fri, 22 May 2009 09:05:42 +0200
+154P Received: from exim by mail-mx6.uio.no with local  (Exim 4.69)
+	id 1M7Op4-00025D-2U
+	for taylor367tristram@TheRedSea.com; Fri, 22 May 2009 09:05:42 +0200
+045  X-Failed-Recipients: postmaster@ulrik.uio.no
+029  Auto-Submitted: auto-replied
+055F From: Mail Delivery System <mailer-daemon@usit.uio.no>
+036T To: taylor367tristram@TheRedSea.com
+059  Subject: Mail delivery failed: returning message to sender
+048I Message-Id: <E1M7Op4-00025D-2U@mail-mx6.uio.no>
+038  Date: Fri, 22 May 2009 09:05:42 +0200

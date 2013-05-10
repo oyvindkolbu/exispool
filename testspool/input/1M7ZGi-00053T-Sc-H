@@ -1,0 +1,26 @@
+1M7ZGi-00053T-Sc-H
+exim 7411 7411
+<>
+1243016096 0
+-ident exim
+-received_protocol local
+-body_linecount 23
+-max_received_linelength 254
+-allow_unqualified_recipient
+-allow_unqualified_sender
+-frozen 1243016097
+-localerror
+XX
+1
+hxwawnkb@bohemiath.com
+
+145P Received: from exim by mail-out2.uio.no with local (Exim 4.69)
+	id 1M7ZGi-00053T-Sc
+	for hxwawnkb@bohemiath.com; Fri, 22 May 2009 20:14:56 +0200
+043  X-Failed-Recipients: sinan@example.com
+029  Auto-Submitted: auto-replied
+060F From: Mail Delivery System <Mailer-Daemon@mail-out2.uio.no>
+027T To: hxwawnkb@bohemiath.com
+059  Subject: Mail delivery failed: returning message to sender
+049I Message-Id: <E1M7ZGi-00053T-Sc@mail-out2.uio.no>
+038  Date: Fri, 22 May 2009 20:14:56 +0200

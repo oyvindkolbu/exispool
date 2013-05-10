@@ -1,0 +1,41 @@
+1M75H2-0003Xd-DS-H
+exim 7411 7411
+<xman@pat.uio.no>
+1242900796 0
+-helo_name mail-mx4.uio.no
+-host_address 129.240.10.45.48341
+-host_name mail-mx4.uio.no
+-interface_address 129.240.10.38.25
+-received_protocol esmtp
+-body_linecount 8
+-max_received_linelength 20
+-allow_unqualified_recipient
+-allow_unqualified_sender
+YN missis.y@example.com
+NN miss.y@example.org
+3
+miss.y@example.org
+missis.y@example.com
+pmiss.x@example.net
+
+185P Received: from mail-mx4.uio.no ([129.240.10.45])
+	by mail-out1.uio.no with esmtp (Exim 4.69)
+	(envelope-from <xman@pat.uio.no>)
+	id 1M75H2-0003Xd-DS; Thu, 21 May 2009 12:13:16 +0200
+246P Received: from 10.20.10.20.nextgentel.com ([10.20.10.20] helo=[10.20.10.20])
+	by mail-mx4.uio.no with esmtpsa (TLSv1:AES256-SHA:256)
+	user xman (Exim 4.69)
+	(envelope-from <xman@pat.uio.no>)
+	id 1M75H0-0000yi-T2; Thu, 21 May 2009 12:13:16 +0200
+042I Message-ID: <4A15292A.40807@ulrik.uio.no>
+038  Date: Thu, 21 May 2009 12:12:58 +0200
+058F From: Mr. X <xman@pat.uio.no>
+035  Organization: Universitetet i Oslo
+052  User-Agent: Thunderbird 2.0.0.21 (Windows/20090302)
+018  MIME-Version: 1.0
+042T To: <miss.y@example.org>
+047C CC: missis.y@example.com, pmiss.x@example.net
+066  Subject: Re: Hola
+075  References: <42328DC9833DE349B7586FF1EE6@my.corp>
+060  Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+032  Content-Transfer-Encoding: 7bit

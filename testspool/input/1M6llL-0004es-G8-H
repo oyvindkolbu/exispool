@@ -1,0 +1,34 @@
+1M6llL-0004es-G8-H
+exim 7411 7411
+<devnull@uio.no>
+1242825795 2
+-ident exim
+-received_protocol local-bsmtp
+-body_linecount 1
+-max_received_linelength 10
+-allow_unqualified_recipient
+-allow_unqualified_sender
+XX
+2
+navn@eksempel.no
+name@example.no
+
+195P Received: from exim by mail-out2.uio.no with local-bsmtp (Exim 4.69)
+	(envelope-from <devnull@uio.no>)
+	id 1M6llL-0004es-G8; Wed, 20 May 2009 15:23:15 +0200
+219P Received: from mail-mx2.uio.no ([129.240.10.30])
+	by mail-out2.uio.no with esmtp (Exim 4.69)
+	(envelope-from <devnull@uio.no>)
+	id 1M6llL-0004ep-FG; Wed, 20 May 2009 15:23:15 +0200
+237P Received: from tro-dbprod01.uio.no ([158.36.5.10] helo=smtp.uio.no)
+	by mail-mx2.uio.no with smtp  (Exim 4.69)
+	(envelope-from <devnull@uio.no>)
+	id 1M6llL-00035Z-66; Wed, 20 May 2009 15:23:15 +0200
+033  Date: 20 MAY 2009 15:23:15 +0100
+026F From: devnull@uio.no
+052T To: navn@eksempel.no
+005C Cc: name@example.no
+018  Mime-Version: 1.0
+016  X-Mailer: FS6.0
+054  Subject: Hepppsan
+048I Message-ID: <E1M6llL-00035Z-66@mail-mx2.uio.no>

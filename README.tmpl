@@ -1,0 +1,117 @@
+exispool_ VERSION
+#############
+
+:Author: Øyvind Kolbu and Ståle Kristoffersen
+:Contact: kolbu@usit.uio.no and/or stalk@usit.uio.no.
+
+.. _exispool: http://www.usit.uio.no/it/epost/system/software/exispool/
+.. contents::
+
+
+Introduction
+============
+exispool is a tool for handling exim message spools. Exim is a MTA that
+temporarily stores mails that are passing trough it in a spool. When exim is
+not able to deliver a mail to all its receipients, it can reside in the spool
+for quite some time.  If a machine or server is wrongly configured and is
+sending out e-mails that have errors, the spool can quickly be filled up with a
+lot of messages. To keep the exim from trying to deliver all those e-mails one
+would use exispool with a few options to match the e-mails that are causing the
+problems, and either delete or freeze them.  When a message is frozen exim will
+not try to deliver it again.
+
+Download
+========
+The latest version of this program is exispool-VERSION_, for older
+releases see here_.
+
+.. _exispool-VERSION: http://folk.uio.no/kolbu/hacks/exispool/dist/exispool-VERSION.tar.gz
+.. _here: http://folk.uio.no/kolbu/hacks/exispool/dist/
+
+Compatibility
+=============
+exispool runs fine on Python 2.4, and it should not be too much work to make it
+work with Python 2.3.
+
+Installation
+============
+exispool is self contained, and require no 3rd party modules.
+
+If you want to run regressions tests before installing it::
+
+    $ python tests.py
+
+To install it::
+
+    $ python setup.py install
+
+Configuration
+=============
+exispool will try to look in `/etc/exispoolcfg` for it's configuration. The file
+should consist of a list of exim spool directories. If no config file is
+present one or more spools must be specified on the command-line.
+
+If a configuration file exists and one or more spools are given on the command line
+the spools from the configuration file will be ignored.
+
+Sample usage
+============
+
+To get an overview over what options are supported run this command::
+
+    $ exispool.py -h
+    Usage: exispool.py [options] spool1 [spool2 ...]
+
+    Options:
+    -h, --help                  show this help message and exit
+    -v, --verbose               be verbose
+    -V, --version               show version
+    -o FILE, --optionfile=FILE  spesify a configuration file at FILE
+
+    These options control which messages will be matched. ADDR/STRING is a regular expression:
+    -f ADDR, --from=ADDR          envelope from matches ADDR
+    -F ADDR, --hfrom=ADDR         header "From" matches ADDR
+    -E STRING, --hsubject=STRING  header "Subject" matches STRING
+    -t ADDR, --to=ADDR            envelope to matches ADDR
+    -T ADDR, --hto=ADDR           header "To" matches ADDR
+    -C ADDR, --cc=ADDR            header "Cc" matches ADDR
+    -M ADDR, --message-id=ADDR    header "Message-Id" matches ADDR
+    -R ADDR, --reply-to=ADDR      header "Reply-To" matches ADDR
+    -S ADDR, --smtp-user=ADDR     exim smtp user matches ADDR
+    -m HOST, --from-host=HOST     message came from HOST
+    -b HOST, --by-host=HOST       message passed by HOST
+    -i, --invert                  invert matches
+    -z, --frozen                  match if message is frozen
+    -n, --not-frozen              match if message is not frozen
+
+    These options control what to do with messages that match:
+    -l, --list                    list matching messages
+    -L, --list-exim-id            only list exim queue id
+    -p, --list-header-path        list path to header file
+    -q, --quiet                   disable default output
+    -d, --delete                  delete matching messages
+    -c, --count                   print number of matches
+    -s, --size                    print total size of messages matching
+    -r, --freeze                  freeze the messages
+    -H, --thaw                    thaw (unfreeze) the messages
+    -D, --delivered-domains       list delivered domains
+    -u, --undelivered-domains     list undelivered domains
+
+ADDR and HOST are regular expressions and can be a partial address or host.
+To freeze and list the exim-id for all messages that has been via the machine
+lister.uio.no and the envelope from contains geo run the following command::
+
+    exispool.py -b 'lister\.uio\.no' -f geo -L -r
+
+Structure
+=========
+::
+
+    exispool-X-Y\
+        README		This file
+        tests.py        Regression-script
+        setup.py	Installation-script
+        exispool	This is the main script.
+        testspool\      Directory containing a sample spool, used for testing
+            ....
+

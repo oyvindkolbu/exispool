@@ -1,0 +1,34 @@
+1M8EQp-0007xS-Mb-H
+exim 7411 7411
+<mia@stud.eksempel.se>
+1243174327 0
+-ident exim
+-received_protocol local-bsmtp
+-body_linecount 3
+-max_received_linelength 162
+-allow_unqualified_recipient
+-allow_unqualified_sender
+XX
+1
+malin@stud.eksempel.se
+
+188P Received: from exim by mail-out2.uio.no with local-bsmtp (Exim 4.69)
+	(envelope-from <mia@stud.eksempel.se>)
+	id 1M8EQp-0007xS-Mb
+	for malin@stud.eksempel.se; Sun, 24 May 2009 16:12:07 +0200
+212P Received: from mail-mx6.uio.no ([129.240.10.47])
+	by mail-out2.uio.no with esmtp (Exim 4.69)
+	(envelope-from <mia@stud.eksempel.se>)
+	id 1M8EQp-0007xP-LN
+	for malin@stud.eksempel.se; Sun, 24 May 2009 16:12:07 +0200
+246P Received: from www.its-learning.com ([158.36.191.141] helo=ITSL242.learning.local)
+	by mail-mx6.uio.no with esmtp  (Exim 4.69)
+	(envelope-from <mia@stud.eksempel.se>)
+	id 1M8EQp-0007IK-4b
+	for malin@stud.eksempel.se; Sun, 24 May 2009 16:12:07 +0200
+058F From: Mia <mia@stud.eksempel.se>
+041T To: Malin <malin@stud.eksempel.se>
+047  Subject: [it's learning-meddelande] reflektion
+038  Date: Sun, 24 May 2009 16:12:07 +0200
+018  MIME-Version: 1.0
+048I Message-ID: <E1M8FQp-0007IK-4b@mail-mx6.uio.no>

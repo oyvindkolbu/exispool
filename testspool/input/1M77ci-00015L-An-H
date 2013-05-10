@@ -1,0 +1,46 @@
+1M77ci-00015L-An-H
+exim 7411 7411
+<nginx01@ulrik.uio.no>
+1242909828 0
+-helo_name mail-mx5.uio.no
+-host_address 129.240.10.46.47522
+-host_name mail-mx5.uio.no
+-interface_address 129.240.10.38.25
+-received_protocol esmtp
+-body_linecount 5
+-max_received_linelength 161
+-allow_unqualified_recipient
+-allow_unqualified_sender
+XX
+1
+lena.magnusson@ibf.uu.se
+
+216P Received: from mail-mx5.uio.no ([129.240.10.46])
+	by mail-out2.uio.no with esmtp (Exim 4.69)
+	(envelope-from <nginx01@ulrik.uio.no>)
+	id 1M77ci-01015L-An
+	for addr@ibf.uu.se; Thu, 21 May 2009 14:43:48 +0200
+276P Received: from w3prod-wm01.uio.no ([129.240.4.214] helo=webmail.uio.no)
+	by mail-mx5.uio.no with esmtpsa (TLSv1:AES256-SHA:256)
+	user nginx01 (Exim 4.69)
+	(envelope-from <nginx01@ulrik.uio.no>)
+	id 1M77ch-0004sb-TN
+	for addr@ibf.uu.se; Thu, 21 May 2009 14:43:48 +0200
+162P Received: from 10.20.30.40
+        (SquirrelMail authenticated user nginx01)
+        by webmail.uio.no with HTTP;
+        Thu, 21 May 2009 14:43:47 +0200 (CEST)
+071I Message-ID: <571ef3676bc9ee3458816ce39704dc34.squirrel@webmail.uio.no>
+045  Date: Thu, 21 May 2009 14:43:47 +0200 (CEST)
+016  Subject: Hotell
+033F From: nginx01@sosgeo.uio.no
+048T To: "Addr" <addr@ibf.uu.se>
+032  User-Agent: SquirrelMail/1.4.17
+018  MIME-Version: 1.0
+044  Content-Type: text/plain;charset=iso-8859-1
+032  Content-Transfer-Encoding: 8bit
+034  X-UiO-MailScanner: No virus found
+111  X-UiO-Ratelimit-Test: rcpts/h 1 msgs/h 1 sum rcpts/h 1 sum msgs/h 1 total rcpts 279 max rcpts/h 80 ratelimit 0
+138  X-UiO-Spam-info: not spam, SpamAssassin (score=-5.0, required=5.0, autolearn=disabled, UIO_MAIL_IS_INTERNAL=-5, uiobl=NO, uiouri=_URIID_)
+056  X-UiO-Scanned: 327E5360976CA06B9F71025FD1C5F1D07C4674E6
+162  X-UiO-SPAM-Test: remote_host: 129.240.4.214 spam_score: -49 maxlevel 80 minaction 2 bait 0 mail/h: 120 total 1307949 max/h 678 blacklist 0 greylist 0 ratelimit 0

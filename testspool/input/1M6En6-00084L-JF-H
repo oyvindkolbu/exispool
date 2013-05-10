@@ -1,0 +1,26 @@
+1M6En6-00084L-JF-H
+exim 7411 7411
+<>
+1242699052 0
+-ident exim
+-received_protocol local
+-body_linecount 7
+-max_received_linelength 156
+-allow_unqualified_recipient
+-allow_unqualified_sender
+-frozen 1242699052
+-localerror
+XX
+1
+trickster@mycitymate.com
+
+147P Received: from exim by mail-out2.uio.no with local (Exim 4.69)
+	id 1M6En6-00084L-JF
+	for example@mycitymate.com; Tue, 19 May 2009 04:10:52 +0200
+064  X-Failed-Recipients: adresse@eksempel.no
+029  Auto-Submitted: auto-replied
+064F From: Mail Delivery System <Mailer-Daemon@qualify-ulrik.uio.no>
+029T To: example@mycitymate.com
+059  Subject: Mail delivery failed: returning message to sender
+049I Message-Id: <E1M6En6-00084L-JF@mail-out2.uio.no>
+038  Date: Tue, 19 May 2009 04:10:52 +0200
