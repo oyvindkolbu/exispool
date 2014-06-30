@@ -13,7 +13,7 @@ TARGZ=exispool-$VERSION.tar.gz
 rm -rf dist
 
 # Fix version.
-perl -pe "s/VERSION/$VERSION/g" README.tmpl > README
+perl -pe "s/VERSION/$VERSION/g" README.tmpl > README.rst
 
 # Make a package the python way™
 python setup.py sdist
