@@ -34,7 +34,7 @@ tar cfz $TARGZ $DEST
 
 # Publish
 cp $TARGZ $WWW/dist/
-rst2html $DEST/README > $WWW/index.html
+rst2html $DEST/README.rst > $WWW/index.html
 cd $WWW/dist/
 chmod 644 ../index.html *
 ln -sf $TARGZ exispool.tar.gz
